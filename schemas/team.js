@@ -4,18 +4,18 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'member_name',
-      title: 'Name',
+      name: 'name',
+      title: 'Member Name',
       type: 'string'
     },
     {
-      name: 'member_position',
-      title: 'Position',
+      name: 'position',
+      title: 'Member Position',
       type: 'string'
     },
     {
-      name: 'member_imgurl',
-      title: 'ImgUrl',
+      name: 'imgurl',
+      title: 'Member ImgUrl',
       type: 'image',
       options: {
         hotspot: true,

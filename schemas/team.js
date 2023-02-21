@@ -4,17 +4,17 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'name',
+      name: 'member_name',
       title: 'Name',
       type: 'string'
     },
     {
-      name: 'position',
+      name: 'member_position',
       title: 'Position',
       type: 'string'
     },
     {
-      name: 'imgurl',
+      name: 'member_imgurl',
       title: 'ImgUrl',
       type: 'image',
       options: {
